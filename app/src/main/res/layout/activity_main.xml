@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="-1"
+    android:layout_height="-1">
+
+    <TextView
+        android:id="false"
+        android:layout_width="-2"
+        android:layout_height="-2"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="ระบบขัดข้อง"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="false"
+        android:layout_width="-2"
+        android:layout_height="-2"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="86dp"
+        android:text="Button"
+        android:visibility="2" />
+
+    <ProgressBar
+        android:id="false"
+        style="@style/AppTheme"
+        android:layout_width="-2"
+        android:layout_height="-2"
+        android:layout_above="false"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp" />
+
+    <TextView
+        android:id="false"
+        android:layout_width="-2"
+        android:layout_height="-2"
+        android:layout_below="false"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:text="กรุณาแจ้ง 084-555-7930"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="false"
+        android:layout_width="-2"
+        android:layout_height="-2"
+        android:layout_below="false"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:textSize="30sp" />
+</RelativeLayout>

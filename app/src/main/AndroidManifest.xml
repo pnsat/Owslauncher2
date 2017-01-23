@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.daydr3am.owslauncher"
+    platformBuildVersionCode="14"
+    platformBuildVersionName="4.0.2-1406408"
+    android:versionCode="3"
+    android:versionName="1.0.3">
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="16" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="res/drawable-ldpi-v4/ic_launcher.png"
+
+        android:label="OWSLauncher"
+        android:theme="null">
+        <activity
+            android:name="com.daydr3am.owslauncher.MainActivity"
+            android:label="OWSLauncher">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.HOME" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.MONKEY" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>
